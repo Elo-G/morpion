@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="FR">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" type="image/png" href="./assets/images/icon.png">
+		<link rel="stylesheet" href="./assets/style.css">
+		<link rel="stylesheet" href="./assets/responsive.css">
+		<title>morpion</title>
+	</head>
+
+	<body>
+		<header>
+			<div ><img class="dessinMorp" src="./assets/images/morpion-fdj.png" alt="image morpion fdj">
+			</div>
+			<h1>Jeu du morpion</h1>
+			<p>Ca va gratter !!!</p>
+			<div id="fdjR">
+				<img class="dessinMorp" src="./assets/images/morpion-fdj.png" alt="image morpion fdj" >
+			</div>
+		</header>
+		<main>
+		 <section>
+			  <button id="random" onclick="cpuMode()">Jouer contre CPU</button>
+			  <!-- qd je clique la fonction cpumode s'execute-->
+
+			   <article id="game">
+				   <div class="case" onclick="play(this)"></div>
+				   <div class="case" onclick="play(this)"></div>
+				   <div class="case" onclick="play(this)"></div>
+				   <div class="case" onclick="play(this)"></div>
+				   <div class="case" onclick="play(this)"></div>
+				   <div class="case" onclick="play(this)"></div>
+				   <div class="case" onclick="play(this)"></div>
+				   <div class="case" onclick="play(this)"></div>
+				   <div class="case" onclick="play(this)"></div>
+			  </article>
+
+               <button id="replay" onclick="reset()">Refaire une partie</button>
+			
+			   <div id="scorePlayerOne"></div>
+
+			   <div id="scorePlayerTwo"></div>
+
+			   <div id="matchNul"></div>
+		  </section>
+			
+		</main>
+
+
+		<script src="./assets/js/morpion-random.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,243 @@
+
+
+/* @media (max-width: 1200px) 
+   @media (max-width: 1024px) Ipad mini en largeur
+   @media (max-width: 768px) Ipad mini en longueur
+   @media (max-width: 414px) Iphone 6/7/8 plus
+   @media (max-width: 375px) Iphone 6/7/8
+   @media (max-width: 360px) Galaxy S8 */
+
+
+
+@media (max-width: 1250px){
+ @font-face{
+    font-family: 'morp';
+    src: url('./font/scrat.otf');       
+ }
+   
+ header{
+   height: 130px; 
+ }
+
+ header h1{
+   padding-top: 25px;
+   font-size: 60px;
+ }
+
+ p{
+   margin-top:90px;
+   font-size: 30px;
+ }
+
+ .dessinMorp{
+   margin-top: 19px;  
+   width:200px ;  
+ }
+
+ section{
+   margin-top: 150px;
+ }
+    
+ #random{
+   width: 170px;
+   height:45px ;
+ }
+
+ #game{
+   width: 400px;
+ }
+
+ .case{
+   height: 100px;
+   font-size:80px ;
+ }
+
+ #replay{
+   width: 170px;
+   height:45px ;
+ }
+}
+
+
+/*-----------------------@media (max-width: 1024px) Ipad Mini (Largeur) --------------------*/
+@media (max-width: 1024px){
+ header{
+   height: 100px;
+ }
+
+ header h1{
+   padding-top: 35px;
+   font-size: 25px;
+ }
+
+ p{
+   margin-top: 70px;
+   font-size: 15px;
+ }
+
+ .dessinMorp{
+   margin-top: 25px;  
+   width:135px ;  
+ }
+
+ section{
+   margin-top: 30px;
+ }
+
+ #random{
+  margin-top: 20px;
+  width: 130px;
+  height:40px ; 
+  font-size: 13px;
+}
+
+ #game{
+   width: 350px;
+ }
+
+ .case{
+   font-size:70px;
+ }
+
+ #scorePlayerOne{
+   width: 300px;
+   height:30px;
+   font-size: 25px;
+ }
+    
+ #scorePlayerTwo{ 
+   width: 300px;
+   height:30px;
+   font-size: 25px;
+ }
+
+ #matchNul{
+   width: 300px;
+   height:30px;
+   font-size: 25px;
+ }
+
+ #replay{
+   margin-top: 20px;
+   width: 130px;
+   height:40px;
+   font-size: 13px;
+ }
+}
+    
+
+/*-----------------------@media (max-width: 768px) Ipad Mini (Longueur) ---------------------*/
+@media(max-width: 768px){
+
+ section{
+   margin-top: 135px;
+ }
+
+ #scorePlayerOne{
+   width: 330px;
+ }
+
+ #scorePlayerTwo{
+   width: 330px;
+ }
+
+ #random{
+   font-size: 13px;
+ }
+
+ #replay{
+   font-size: 13px;
+ }
+}
+
+
+/*-----------------------@media(max-width: 414px) Iphone 6/7/8/plus --------------------------*/
+@media(max-width: 414px){
+ header h1 {
+   font-size: 20px;
+ }
+
+ section{
+   margin-top: 50px;
+ }
+
+ #random{
+  width: 100px;
+  height:30px ; 
+  font-size: 10px;
+}
+
+ #game{
+   width: 250px; 
+ }
+
+ .case{
+   border: 3px solid orange;
+   height: 80px;
+   font-size:60px ;
+ }
+
+#replay{
+  margin-top: 20px;
+  width: 100px;
+  height:30px;
+  font-size: 10px;
+}
+}
+
+
+ /*-----------------------@media (max-width: 375px) Iphone 6/7/8/ ----------------------------- */
+@media(max-width: 375px){
+ header h1 {
+   font-size: 17px;
+   padding-top: 40px;
+ }
+
+ p{
+   font-size: 10px;
+ }
+
+ section{
+   margin-top: 40px;
+ }
+
+ #game{
+   width: 200px; 
+ }
+
+ .case{
+   border: 3px solid orange;
+   height: 60px;
+   font-size:40px ;
+ }
+
+ #scorePlayerOne{
+   width: 300px;
+   height:30px;
+   font-size: 17px;
+ }
+
+ #scorePlayerTwo{
+   width: 300px;
+   height:30px;
+   font-size: 17px;
+ }
+
+ #matchNul{
+   width: 300px;
+   height:30px;
+   font-size: 17px;
+ }
+}
+
+ /*-----------------------@media(max-width: 360px) Galaxy S8 ----------------------------- */
+ @media(max-width: 360px){
+    header h1 {
+      font-size: 13px;
+      padding-top: 45px;
+    }
+   
+    p{
+      font-size: 10px;
+    }
+ }

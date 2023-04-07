@@ -1,0 +1,156 @@
+@font-face {
+	font-family: 'morp';
+	src: url('./font/scrat.otf'); 
+		
+}
+
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+    margin: 0;
+    font-family: morp;
+    text-align: center;
+    background-image:url("./images/backgroundMorpion.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+
+header{
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    justify-content: space-around;
+    border-bottom: solid orange ;
+}
+
+header h1 {
+    margin: 0;
+    padding-top: 20px;
+    font-size: 80px;
+    color: orange;
+    background-color: blue;
+    text-shadow:1px 1px 4px;
+    justify-content: center;
+ 
+}
+
+p{
+    position: absolute;
+    margin-top: 110px;
+    font-size: 30px;
+    font-weight: bold;
+    }
+
+    .dessinMorp{
+        margin-top: 34px;  
+        width:225px ;  
+      }
+    
+main {
+    background-image:url("./images/backgroundMorpion.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#random{
+    margin-top: 20px;
+    width: 150px;
+    height:55px ;
+    border-radius:15px ;
+    border:5px solid orange;
+    background-color: white;
+    font-family: 'morp';
+	src: url('./font/scrat.otf');
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 1px 1px 2px; 
+}
+
+#game{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr); /* Je fais 3 colonnes d'1fraction 
+                                            chacune je pourrais l'écrire 
+                                            aussi ainsi 
+                                        "grid-template-columns: 1fr 1fr 1fr"*/
+    width: 450px;;
+    margin-top: 30px;
+    background-color: blue;
+    box-shadow: 1px 1px 2px;
+}
+
+.case{
+    border: 7px solid orange;
+    height: 120px;
+    font-size:90px ;
+    color: white;
+}
+
+
+#scorePlayerOne{
+width: 500px;
+height:38px;
+font-size: 30px;
+font-weight: bolder;
+color: orange;
+text-shadow: 5 5 1px black; 
+background-color:#0637F6 ;
+margin-top: 30px;
+}
+
+#scorePlayerTwo{
+    width: 500px;
+    height:38px;
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+    text-shadow: 5 5 1px black; 
+    background-color:#0637F6 ;
+    }
+
+    #matchNul{
+        width: 500px;
+        height:38px;
+        font-size: 30px;
+        font-weight: bold;
+        color: orange;
+        text-shadow: 5 5 1px black; 
+        background-color:#0637F6 ;
+        }
+
+#replay{
+        margin-top: 20px;
+        width: 150px;
+        height:55px ;
+        border-radius:15px ;
+        border:5px solid orange;
+        background-color: white;
+        font-family: 'morp';
+        src: url('./font/scrat.otf');
+        font-size: 18px;
+        font-weight: bold;
+        box-shadow: 1px 1px 2px; 
+}
+
+
+
+
+
+
